@@ -1,4 +1,4 @@
-# markdown
+# markdown转html（实时）
 使用[Showdown](https://github.com/zzchong/markdown/tree/master/showdown-master "Showdown")来实现markdown 转 html
 
 ## 引入showdown
@@ -24,6 +24,6 @@
             let converter = new showdown.Converter();
             document.getElementById("result").innerHTML = converter.makeHtml(text);
         }
-    </script>
+ </script>
 ````
 
