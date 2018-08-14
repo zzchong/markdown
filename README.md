@@ -8,5 +8,12 @@
 
 ## 使用showdown
 ````
+ <script type="text/javascript">
+        function convert(){
+            let text = document.getElementById("content").value;
+            let converter = new showdown.Converter();
+            document.getElementById("result").innerHTML = converter.makeHtml(text);
+        }
+    </script>
 ````
 
