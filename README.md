@@ -8,7 +8,14 @@
 
 ## 使用showdown
 ### html
-
+````
+  <div>
+      <textarea id="content" onkeyup="convert()"></textarea>
+  </div>
+  <div>
+      <div id="result"></div>
+  </div>
+````
 ### js
 ````
  <script type="text/javascript">
